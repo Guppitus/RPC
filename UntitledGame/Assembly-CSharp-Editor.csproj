@@ -66,6 +66,7 @@
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ToonShading\Shaders\ToonBasic.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\C&amp;C_Pack\Goblin_rouge\readme.txt" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />

@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\C&amp;C_Pack\Goblin_rouge\Script\Goblin_ro_ctrl.cs" />
      <Compile Include="Assets\Realistic Forest Pack\Standard Assets\Environment\Water\Water\Scripts\Displace.cs" />
      <Compile Include="Assets\Realistic Forest Pack\Standard Assets\Environment\Water\Water\Scripts\GerstnerDisplace.cs" />
      <Compile Include="Assets\Realistic Forest Pack\Standard Assets\Environment\Water\Water\Scripts\MeshContainer.cs" />
@@ -146,6 +147,7 @@
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ToonShading\Shaders\ToonBasic.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\C&amp;C_Pack\Goblin_rouge\readme.txt" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
