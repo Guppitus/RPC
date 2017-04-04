@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LevelManager : MonoBehaviour {
+public class Level_Manager : MonoBehaviour {
 
     public Transform mainMenu, optionsMenu;
 
