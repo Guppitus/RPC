@@ -45,6 +45,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\C&amp;C_Pack\Goblin_rouge\Script\Goblin_ro_ctrl.cs" />
+     <Compile Include="Assets\MORPH3D\Vendor\Unity\Shaders\Hair\HairRenderer.cs" />
+     <Compile Include="Assets\MORPH3D\Vendor\Unity\Shaders\UniqueShadow\UniqueShadow.cs" />
+     <Compile Include="Assets\MORPH3D\Vendor\Unity\Shaders\UniqueShadow\UniqueShadowSun.cs" />
      <Compile Include="Assets\Realistic Forest Pack\Standard Assets\Environment\Water\Water\Scripts\Displace.cs" />
      <Compile Include="Assets\Realistic Forest Pack\Standard Assets\Environment\Water\Water\Scripts\GerstnerDisplace.cs" />
      <Compile Include="Assets\Realistic Forest Pack\Standard Assets\Environment\Water\Water\Scripts\MeshContainer.cs" />
@@ -58,6 +62,7 @@
      <Compile Include="Assets\Scripts\Enemy\EnemyMovement.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerAttack.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
+     <Compile Include="Assets\Scripts\SceneManager.cs" />
      <Compile Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Scripts\Antialiasing.cs" />
      <Compile Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Scripts\Bloom.cs" />
      <Compile Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
@@ -146,17 +151,23 @@
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ToonShading\Shaders\ToonBasic.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\Standard\StandardSpecular-doublesided.shader" />
+     <None Include="Assets\C&amp;C_Pack\Goblin_rouge\readme.txt" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\Hair\Hair_Universal.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\Skin\Volund_UnityStandardCore.cginc" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\Projectors\Guidelines.txt" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\UniqueShadow\UniqueShadow_ShadowSample.cginc" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\MotionBlur.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\Hair\Hair_UnityStandardInput.cginc" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\RadialBlur.shader" />
@@ -164,11 +175,15 @@
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\MORPH3D\Resources\Shaders\AlphaCombiner.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
      <None Include="Assets\Realistic Forest Pack\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\Standard\Standard-doublesided.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\MORPH3D\README.txt" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\Standard\Standard-2pass-doublesided-half depth.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\SSAOShader.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
@@ -181,6 +196,7 @@
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ToonShading\Shaders\ToonLit.shader" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\Standard\Standard-2pass-doublesided.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
@@ -191,8 +207,12 @@
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
      <None Include="Assets\Realistic Forest Pack\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\Skin\MorphSkinDeferred.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\MORPH3D\Resources\Shaders\Morph3DBasicSkin.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\Skin\Volund_UnityStandardInput.cginc" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\Hair\Hair_setup.cginc" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
@@ -211,16 +231,20 @@
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\Hair\Hair_UnityStandardCore.cginc" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
      <None Include="Assets\_CompletedAssets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
      <None Include="Assets\Realistic Forest Pack\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
      <None Include="Assets\Realistic Forest Pack\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+     <None Include="Assets\MORPH3D\Resources\Shaders\EyeAndLash.shader" />
      <None Include="Assets\_CompletedAssets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\SimpleClear.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\UniqueShadow\UniqueShadow_DepthOnly.shader" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\Skin\Volund_StandardSpecularCharacter.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
      <None Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
@@ -232,6 +256,18 @@
  </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="M3D_DLL">
+ <HintPath>/Users/Nicole/Documents/School/Senior Year/Senior Project/ProjRepo/SeniorProjects/UntitledGame/Assets/MORPH3D/Scripts/Plugins/M3D_DLL.dll</HintPath>
+ </Reference>
+ <Reference Include="M3DIMPORT_DLL">
+ <HintPath>/Users/Nicole/Documents/School/Senior Year/Senior Project/ProjRepo/SeniorProjects/UntitledGame/Assets/MORPH3D/Scripts/Plugins/M3DIMPORT_DLL.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>/Users/Nicole/Documents/School/Senior Year/Senior Project/ProjRepo/SeniorProjects/UntitledGame/Assets/MORPH3D/Scripts/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+ </Reference>
+ <Reference Include="MCS_Utilities">
+ <HintPath>/Users/Nicole/Documents/School/Senior Year/Senior Project/ProjRepo/SeniorProjects/UntitledGame/Assets/MORPH3D/Scripts/Plugins/MCS_Utilities.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
