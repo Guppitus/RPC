@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class EnemyMovement : MonoBehaviour
 {
@@ -22,24 +23,29 @@ public class EnemyMovement : MonoBehaviour
         nav = GetComponent<UnityEngine.AI.NavMeshAgent>();
 
     }
-
 	void Update ()
 	{
-		var difference = Vector3.Distance(player.position, transform.position);
+		Scene scene = UnityEngine.SceneManagement.SceneManager.GetActiveScene();
 
-		if(difference <= maximumLookDistance)
-		{	
-			nav.enabled = true;
-			anim.SetBool ("PlayerClose", true);
-			// ... set the destination of the nav mesh agent to the player.
-			nav.SetDestination(player.position);
-		}
-		// Otherwise...
-		else
-		{
-			// ... disable the nav mesh agent.
-			nav.enabled = false;
-			anim.SetBool ("PlayerClose", false);
+		if (scene.name == "level01") {
+			var difference = Vector3.Distance (player.position, transform.position);
+
+			if (difference <= maximumLookDistance) {	
+				anim.SetBool ("PlayerClose", true);
+				nav.enabled = true;
+				// ... set the destination of the nav mesh agent to the player.
+				nav.SetDestination (player.position);
+			} else {
+				// ... disable the nav mesh agent.
+				nav.enabled = false;
+				anim.SetBool ("PlayerClose", false);
+			}
+		} else {
+			if (scene.name == "level02") {
+				anim.SetBool ("InCombat", true);
+				nav.enabled = false;
+
+			}
 		}
 	} 
 }
