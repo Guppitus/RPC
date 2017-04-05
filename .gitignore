@@ -3,7 +3,8 @@ Unity generated
 ===============
 Temp/
 Library/
-
+Demo_Data/
+*.exe
 =====================================
 Visual Studio / MonoDevelop generated
 =====================================
