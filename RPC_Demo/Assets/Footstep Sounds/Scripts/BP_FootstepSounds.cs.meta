@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 304eb4c7ab55bef41a6bafe32a9288b6
+timeCreated: 1491496117
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - defaultFootstepSound: {fileID: 8300000, guid: 483c3fa706886c44ea8752acf0e82d99,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
