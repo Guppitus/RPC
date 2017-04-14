@@ -3,12 +3,15 @@ using System.Collections;
 
 public class EnemyAttack : MonoBehaviour {
 
-	// Use this for initialization
+	Transform player;
+	int damagePerHit = 5;
+	Animator anim;
+
 	void Start () {
-	
+		player = GameObject.FindWithTag("Player").transform;
+		anim = GetComponent<Animator>();
 	}
 	
-	// Update is called once per frame
 	void Update () {
 	
 	}
