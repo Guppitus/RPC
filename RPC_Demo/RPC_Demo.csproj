@@ -90,7 +90,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\C%26C_Pack\Goblin_rouge\Script\Goblin_ro_ctrl.cs" />
+    <Compile Include="Assets\C&amp;C_Pack\Goblin_rouge\Script\Goblin_ro_ctrl.cs" />
     <Compile Include="Assets\Footstep Sounds\Scripts\BP_FootstepSounds.cs" />
     <Compile Include="Assets\MORPH3D\Vendor\Unity\Shaders\Hair\HairRenderer.cs" />
     <Compile Include="Assets\MORPH3D\Vendor\Unity\Shaders\UniqueShadow\UniqueShadow.cs" />
@@ -105,6 +105,8 @@
     <Compile Include="Assets\Realistic Forest Pack\Standard Assets\Environment\Water\Water\Scripts\Water.cs" />
     <Compile Include="Assets\Realistic Forest Pack\Standard Assets\Environment\Water\Water\Scripts\WaterBase.cs" />
     <Compile Include="Assets\Realistic Forest Pack\Standard Assets\Environment\Water\Water\Scripts\WaterTile.cs" />
+    <Compile Include="Assets\Scripts\CombatButton.cs" />
+    <Compile Include="Assets\Scripts\Combat_buttons.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyAttack.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyHealth.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyMovement.cs" />
@@ -197,9 +199,10 @@
     <Compile Include="Assets\_CompletedAssets\Standard Assets\Utility\TimedObjectDestructor.cs" />
     <Compile Include="Assets\_CompletedAssets\Standard Assets\Utility\WaypointCircuit.cs" />
     <Compile Include="Assets\_CompletedAssets\Standard Assets\Utility\WaypointProgressTracker.cs" />
+    <Compile Include="Assets\grou.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\C%26C_Pack\Goblin_rouge\readme.txt" />
+    <None Include="Assets\C&amp;C_Pack\Goblin_rouge\readme.txt" />
     <None Include="Assets\MORPH3D\README.txt" />
     <None Include="Assets\MORPH3D\Resources\Shaders\AlphaCombiner.shader" />
     <None Include="Assets\MORPH3D\Resources\Shaders\EyeAndLash.shader" />

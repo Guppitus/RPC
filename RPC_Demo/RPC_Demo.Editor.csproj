@@ -159,7 +159,7 @@
     <Compile Include="Assets\Realistic Forest Pack\Editor\ImageEffects\VignetteAndChromaticAberrationEditor.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\C%26C_Pack\Goblin_rouge\readme.txt" />
+    <None Include="Assets\C&amp;C_Pack\Goblin_rouge\readme.txt" />
     <None Include="Assets\MORPH3D\README.txt" />
     <None Include="Assets\MORPH3D\Resources\Shaders\AlphaCombiner.shader" />
     <None Include="Assets\MORPH3D\Resources\Shaders\EyeAndLash.shader" />
