@@ -116,6 +116,7 @@
     <Compile Include="Assets\Scripts\Player\PlayerAttack.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\SceneManager.cs" />
+    <Compile Include="Assets\Scripts\slots.cs" />
     <Compile Include="Assets\Sword\Rotation.cs" />
     <Compile Include="Assets\_CompletedAssets\LevelManager.cs" />
     <Compile Include="Assets\_CompletedAssets\Realistic Terrain Collection\Other\Effects\ImageEffects\Scripts\Antialiasing.cs" />
