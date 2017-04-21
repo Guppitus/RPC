@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class grou : MonoBehaviour {
+public class DragHandler : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {

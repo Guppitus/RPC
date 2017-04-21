@@ -107,6 +107,7 @@
     <Compile Include="Assets\Realistic Forest Pack\Standard Assets\Environment\Water\Water\Scripts\WaterTile.cs" />
     <Compile Include="Assets\Scripts\CombatButton.cs" />
     <Compile Include="Assets\Scripts\Combat_buttons.cs" />
+    <Compile Include="Assets\Scripts\DragHandler.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyAttack.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyHealth.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyMovement.cs" />
@@ -199,7 +200,6 @@
     <Compile Include="Assets\_CompletedAssets\Standard Assets\Utility\TimedObjectDestructor.cs" />
     <Compile Include="Assets\_CompletedAssets\Standard Assets\Utility\WaypointCircuit.cs" />
     <Compile Include="Assets\_CompletedAssets\Standard Assets\Utility\WaypointProgressTracker.cs" />
-    <Compile Include="Assets\grou.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\C&amp;C_Pack\Goblin_rouge\readme.txt" />
