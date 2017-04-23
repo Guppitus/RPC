@@ -90,7 +90,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\C&amp;C_Pack\Goblin_rouge\Script\Goblin_ro_ctrl.cs" />
+    <Compile Include="Assets\C%26C_Pack\Goblin_rouge\Script\Goblin_ro_ctrl.cs" />
     <Compile Include="Assets\Footstep Sounds\Scripts\BP_FootstepSounds.cs" />
     <Compile Include="Assets\MORPH3D\Vendor\Unity\Shaders\Hair\HairRenderer.cs" />
     <Compile Include="Assets\MORPH3D\Vendor\Unity\Shaders\UniqueShadow\UniqueShadow.cs" />
@@ -116,6 +116,7 @@
     <Compile Include="Assets\Scripts\Player\PlayerAttack.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\SceneManager.cs" />
+    <Compile Include="Assets\Scripts\combatOrder.cs" />
     <Compile Include="Assets\Scripts\slots.cs" />
     <Compile Include="Assets\Sword\Rotation.cs" />
     <Compile Include="Assets\_CompletedAssets\LevelManager.cs" />
@@ -203,7 +204,7 @@
     <Compile Include="Assets\_CompletedAssets\Standard Assets\Utility\WaypointProgressTracker.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\C&amp;C_Pack\Goblin_rouge\readme.txt" />
+    <None Include="Assets\C%26C_Pack\Goblin_rouge\readme.txt" />
     <None Include="Assets\MORPH3D\README.txt" />
     <None Include="Assets\MORPH3D\Resources\Shaders\AlphaCombiner.shader" />
     <None Include="Assets\MORPH3D\Resources\Shaders\EyeAndLash.shader" />
