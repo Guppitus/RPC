@@ -7,22 +7,32 @@ using UnityEngine.UI;
 
 public class combatOrder : MonoBehaviour, IHasChanged {
    [SerializeField] Transform fragslots;
+   [SerializeField] Transform loopslots;
    [SerializeField] Text combatText;
-   [SerializeField] Text combatAnimation;
+   Text combatAnimation;
    [SerializeField] Animator anim;
+    int c, k=0; 
     public void HasChanged()
     {
         System.Text.StringBuilder builder = new System.Text.StringBuilder();
-      //  System.Text.StringBuilder animationBuilder = new System.Text.StringBuilder();
+        System.Text.StringBuilder animationBuilder = new System.Text.StringBuilder();
        // builder.Append(" ");
+       foreach(Transform slotTransform in loopslots){
+            
+            GameObject loop = slotTransform.GetComponent<slots>().item;
+            if (loop)
+            {
+                k = c;
+            }
+        }
         foreach(Transform slotTransform in fragslots)
         {
-            GameObject item = slotTransform.GetComponent<slots>().item;
-            if(item)
+            GameObject function = slotTransform.GetComponent<slots>().item;
+            if(function)
             {
-        //        animationBuilder.Append(item.name);
-                builder.Append(item.name);
-                builder.Append(" -> ");
+                animationBuilder.Append(function.name);
+                builder.Append(function.name);
+                builder.Append("-> ");
             }
         }
         //combatAnimation.text = animationBuilder.ToString();
@@ -32,10 +42,14 @@ public class combatOrder : MonoBehaviour, IHasChanged {
 
    public void Fight()
     {
-       // anim = GetComponent<Animator>();
+        // anim = GetComponent<Animator>();
 
+        anim.SetTrigger("doneAction");
+        anim.SetTrigger("fwd");
+        anim.SetTrigger("doneAction");
         anim.SetTrigger("atk");
-        anim.SetBool("doneAction", true);
+        anim.SetTrigger("doneAction");
+
     }
 
     // Use this for initialization

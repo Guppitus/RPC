@@ -5,8 +5,11 @@ public class SceneManager : MonoBehaviour {
 	void OnTriggerEnter(Collider ChangeScene) {
 		if(ChangeScene.gameObject.CompareTag("Player"))
 		{
-			Application.LoadLevel ("level02");
-		}
+            if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name != "level02")
+            {
+                Application.LoadLevel("level02");
+            }
+        }
 	}
 }
 
