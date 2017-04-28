@@ -9,9 +9,9 @@ public class combatOrder : MonoBehaviour, IHasChanged {
    [SerializeField] Transform fragslots;
    [SerializeField] Transform loopslots;
    [SerializeField] Text combatText;
-   Text combatAnimation;
+   String combatAnimation;
    [SerializeField] Animator anim;
-    int c, k=0; 
+    bool looped = false;
     public void HasChanged()
     {
         System.Text.StringBuilder builder = new System.Text.StringBuilder();
@@ -22,7 +22,7 @@ public class combatOrder : MonoBehaviour, IHasChanged {
             GameObject loop = slotTransform.GetComponent<slots>().item;
             if (loop)
             {
-                k = c;
+                looped = true;
             }
         }
         foreach(Transform slotTransform in fragslots)
@@ -36,8 +36,14 @@ public class combatOrder : MonoBehaviour, IHasChanged {
             }
         }
         //combatAnimation.text = animationBuilder.ToString();
-        combatText.text = builder.ToString();
-
+        if (looped)
+        {
+            combatText.text = "Fwd-> Atk-> Atk-> Bwd -> Blk";
+        }
+        else
+        {
+            combatText.text = builder.ToString();
+        }
     }
 
    public void Fight()
